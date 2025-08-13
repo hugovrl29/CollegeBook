@@ -1,4 +1,4 @@
-# CollegeBook (Fork – Hugo Verly)
+# CollegeBook (Fork – Hugo Verly) Please run from Mergeing branch
 
 > Fork de [CollegeBook](https://github.com/hugovrl29/CollegeBook) orienté **UX des événements** et **gestion des sièges**.
 
@@ -24,8 +24,7 @@ Mettre en avant mes contributions front/back : affichage des événements, et lo
 ```bash
 git clone https://github.com/hugovrl29/CollegeBook
 cd CollegeBook
-python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
+python -m venv .venv && source .env/bin/activate   # Windows: .env\Scripts\activate
 pip install -r requirements.txt
-cd src
-python manage.py migrate
-python manage.py runserver
+sh restore_BD.sh
+python ./src/manage.py runserver

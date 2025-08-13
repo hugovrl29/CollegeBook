@@ -12,7 +12,7 @@ Mettre en avant mes contributions front/back : affichage des événements, et lo
   - Codes couleur : `disponible`, `vendu`, `sélectionné`, `VIP`, `VIP2`
   - Règles de sélection et retour visuel en temps réel
   - Animation *hover* en JS
-- **Django** : vues/urls nécessaires au flux events → réservation → paiement (si applicable dans ce fork).
+- **Django** : vues/urls nécessaires au flux events et réservation
 
 ## 🛠️ Stack
 - **Backend** : Python / Django

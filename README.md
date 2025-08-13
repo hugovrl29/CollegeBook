@@ -23,7 +23,6 @@ Mettre en avant mes contributions front/back : affichage des événements, et lo
 ## 🚀 Lancer en local
 ```bash
 git clone https://github.com/hugovrl29/CollegeBook
-cd CollegeBook
 python -m venv .venv && source .env/bin/activate   # Windows: .env\Scripts\activate
 pip install -r requirements.txt
 sh restore_BD.sh
